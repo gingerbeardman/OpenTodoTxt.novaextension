@@ -12,7 +12,7 @@
     "main": "main.js",
     
     "entitlements": {
-        "process": true,
+        "process": true
     },
     
     "commands": {
