@@ -1,4 +1,4 @@
-**Open todo.txt** add the ability to open the current project's `todo.txt` and/or `done.txt` in Nova, or an external app of your choice.
+**Open todo.txt** adds the ability to open the current project's `todo.txt` and/or `done.txt` in Nova, or an external app of your choice.
 
 ![](screenshot.png)
 
@@ -24,6 +24,10 @@ Alternatively, you can choose an external app such as [TodoTxtMac](https://mjdes
 To configure global preferences, open **Extensions → Extension Library...** then select Todo's **Preferences** tab.
 
 You can also configure preferences on a per-project basis in **Project → Project Settings...**
+
+## Keyboard
+
+Shortcut/hot keys for any of the menu items can be set the normal Nova way using **Preferences... → Key Bindings → (search for *Open*)**
 
 ## Notes
 

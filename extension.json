@@ -6,7 +6,7 @@
     "repository": "https://github.com/gingerbeardman/OpenTodoTxt.novaextension",
     "bugs": "https://github.com/gingerbeardman/OpenTodoTxt.novaextension/issues",
     "license": "MIT",
-    "version": "1.0",
+    "version": "1.0.1",
     "categories": ["commands"],
     
     "main": "main.js",
