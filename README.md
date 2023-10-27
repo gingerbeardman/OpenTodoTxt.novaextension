@@ -11,6 +11,7 @@ To access the commands:
 
 The available workspace commands are:
 
+- **Open todo app**
 - **Open todo.txt & done.txt**
 - **Open todo.txt**
 - **Open done.txt**
@@ -27,7 +28,7 @@ You can also configure preferences on a per-project basis in **Project → Proje
 
 ## Keyboard
 
-Shortcut/hot keys for any of the menu items can be set the normal Nova way using **Preferences... → Key Bindings → (search for *Open*)**
+Shortcut/hot keys for any of the provided menu items can be set the normal Nova way using **Preferences... → Key Bindings** and searching for *Open* will filter menu items to include those provided by this extension.
 
 ## Notes
 

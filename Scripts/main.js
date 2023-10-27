@@ -30,6 +30,9 @@ function openSomething(todoargs) {
 
   process.start();
 }
+function openApp() {
+    openSomething(["-a", nova.config.get("todo.app")])
+}
 function openBoth() {
     openSomething(["-a", nova.config.get("todo.app"), nova.workspace.path + "/done.txt", nova.workspace.path + "/todo.txt"])
 }
@@ -39,6 +42,7 @@ function openTodo() {
 function openDone() {
     openSomething(["-a", nova.config.get("todo.app"), nova.workspace.path + "/done.txt"])
 }
+module.exports = openApp;
 module.exports = openBoth;
 module.exports = openTodo;
 module.exports = openDone;
@@ -51,6 +55,9 @@ exports.deactivate = function () {
   // Clean up state before the extension is deactivated
 };
 
+nova.commands.register('todo.openApp', async () => {
+  openApp();
+});
 nova.commands.register('todo.openBoth', async () => {
   openBoth();
 });
