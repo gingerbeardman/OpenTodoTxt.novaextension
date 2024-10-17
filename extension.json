@@ -1,12 +1,15 @@
 {
-    "identifier": "com.gingerbeardman.OpenTodoTxt",
-    "name": "Open todo.txt",
-    "organization": "Matt Sephton",
-    "description": "Opens the current project's todo.txt and/or done.txt files in an app of your choice.",
-    "repository": "https://github.com/gingerbeardman/OpenTodoTxt.novaextension",
     "bugs": "https://github.com/gingerbeardman/OpenTodoTxt.novaextension/issues",
+    "description": "Opens the current project's todo.txt and/or done.txt files in an app of your choice.",
+    "funding": "https://ko-fi.com/gingerbeardman",
+    "homepage": "https://www.gingerbeardman.com",
+    "identifier": "com.gingerbeardman.OpenTodoTxt",
     "license": "MIT",
-    "version": "1.1",
+    "name": "Open todo.txt",
+    "organization": "gingerbeardman",
+    "repository": "https://github.com/gingerbeardman/OpenTodoTxt.novaextension",
+    "version": "1.1.1",
+
     "categories": ["commands"],
     
     "main": "main.js",
